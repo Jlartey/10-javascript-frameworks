@@ -5,6 +5,7 @@ function App() {
 
   // State
   const [todos, setTodos] = useState([]);
+  const [addition, setAddition] = useState();
 
   // Binding
   const todoText = useRef();
